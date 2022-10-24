@@ -120,7 +120,7 @@ class Contact extends Component  {
                                             required, minLength: minLength(3), maxLength: maxLength(15), isNumber
                                         }}
                                          />
-                                    <Erro   rs
+                                    <Errors
                                         className="text-danger"
                                         model=".telnum"
                                         show="touched"
